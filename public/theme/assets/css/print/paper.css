@@ -1,0 +1,9 @@
+.paper-a4 {
+    width: 210mm;
+    margin: auto;
+}
+
+.paper-a4.landscape {
+    width: 297mm;
+    margin: auto;
+}

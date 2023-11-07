@@ -1,0 +1,106 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    font-size: 10.5pt;
+}
+
+table {
+    margin: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    vertical-align: top;
+}
+
+.body-header {
+    margin-bottom: 1em;
+}
+
+.body-header h2 {
+    margin-top: 1em;
+    margin-bottom: 0px;
+}
+
+.stripe {
+    margin-bottom: 2em;
+}
+
+.grid {
+    display: flex;
+}
+
+.grid.two.column>div {
+    width: 48%;
+}
+
+.grid.two.column>div:first-child {
+    margin-right: 2%;
+}
+
+.grid.two.column>div:last-child {
+    margin-left: 2%;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.table-sm td,
+.table-sm th {
+    padding: .3rem;
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-center {
+    text-align: center
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.col-60 {
+    width: 60%;
+    float: left;
+}
+
+.col-40 {
+    width: 40%;
+    float: left;
+}
+
+.valign-middle td {
+    vertical-align: middle
+}
+
+@media print {
+    html,
+    body {
+        font-size: 10pt;
+    }
+    .paper-a4 {
+        padding: 2em;
+        width: auto !important;
+    }
+    .no-print {
+        display: none;
+    }
+}
